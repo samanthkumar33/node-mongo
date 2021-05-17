@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<div class="container">
+    <h2>Bordered Table</h2>
+    <p>The .table-bordered class adds borders to a table:</p>            
+    <table class="table table-bordered ">
+      <thead id="heading">
+        <tr>
+          <th><img src="baby.svg" alt=""></th>
+          <th><img src="male.svg" alt=""></th>
+          <th><img src="female.svg" alt=""></th>
+          <th><img src="home.svg" alt=""></th>
+          <th><img src="flag.svg" alt=""></th>  
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-row">
+          <td>
+            <form>
+                <div class="form-group row required">
+                  <div class="col-xs-12">
+                    <label class="control-label" for="child">Child's Name</label>
+                    <input class="form-control" id="child" type="text" placeholder="Child's Name">
+                </div>
+            </form>
+          </td>
+          <td>
+            <form>
+                <div class="form-group row">
+                  <div class="col-xs-12">
+                    <label for="father">Father's Name</label>
+                    <input class="form-control" id="father" type="text" placeholder="Father's Name">
+                </div>
+            </form>
+          </td>
+          <td>
+            <form>
+                <div class="form-group row">
+                  <div class="col-xs-12">
+                    <label for="mother">Mother's Name</label>
+                    <input class="form-control" id="mother" type="text" placeholder="Mother's Name">
+                </div>
+            </form>  
+          </td>
+          <td>
+            <form>
+                <div class="form-group row">
+                  <div class="col-xs-12">
+                    <label for="address-pin">Address & Pincode</label>
+                    <input class="form-control" id="address-pin" type="text" placeholder="Address & Pin">
+                </div>
+            </form>
+          </td>
+          <td>
+            <form>
+                <div class="form-group row required">
+                    <div class="col-xs-12">
+                        <label class="control-label" for="start">Next FollowUp</label>                    
+                        <input type="date" id="start" name="trip-start" value="2021-01-22" min="2021-01-01" max="2025-12-31">
+                    </div>
+                </div>   
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <form>
+                <div class="form-group row ">
+                    <div class="col-xs-12">
+                        <label for="start">DOB</label>                    
+                        <input type="date" id="start" name="trip-start" >
+                    </div>
+                </div>
+            </form>            
+          </td>
+          <td>
+            <form>
+                <div class="form-group row">
+                    <div class="col-xs-12">
+                        <label for="father-occupation">Father's Occupation</label>
+                        <input class="form-control" id="address-pin" type="text" placeholder="Father's Occupation">
+                    </div>
+                </div>    
+            </form>
+          </td>
+          <td>
+            <form>
+                <div class="form-group row">
+                    <div class="col-xs-12">
+                        <label for="mother-occupation">Mother's Occupation</label>
+                        <input class="form-control" id="address-pin" type="text" placeholder="Mother's Occupation">
+                    </div>
+                </div>    
+            </form>
+          </td>
+          <td>
+            <form>
+                <div class="form-group row">
+                    <div class="col-xs-12">
+                        <label for="city">City</label>
+                        <input class="form-control" id="address-pin" type="text" placeholder="City">
+                     </div>
+                </div>
+            </form>
+          </td>
+          <td>
+            <form>
+                <div class="form-group row">
+                    <div class="col-xs-12">
+                        <label for="referral-code">Referral-Code</label>
+                        <input class="form-control" id="address-pin" type="text" placeholder="Referral-Code">
+                    </div>
+                </div>    
+            </form>
+          </td>
+        </tr>
+        <tr class="table-row">
+          <td>
+            <form>
+                <div class="form-group row">
+                    <div class="col-xs-12">
+                        <label for="referred-by">Referred By</label>
+                        <input class="form-control" id="address-pin" type="text" placeholder="Referred By">
+                    </div>
+                </div>    
+            </form>
+          </td>
+          <td>
+            <form>
+                <div class="form-group row">
+                    <div class="col-xs-12">
+                        <label for="age">Age</label>
+                        <input class="form-control" id="address-pin" type="text" placeholder="Age">
+                    </div>
+                </div>    
+            </form>
+          </td>
+          <td>
+            <form>
+                <div class="form-group row">
+                    <div class="col-xs-12">
+                        <label for="father-mobile">Father's Mobile Number</label>
+                        <input class="form-control" id="address-pin" type="tel" placeholder="Father's Mobiler Number">
+                    </div>
+                </div>    
+            </form>
+          </td>
+          <td>
+            <form>
+                <div class="form-group row">
+                    <div class="col-xs-12">
+                        <label for="mother-mobile">Mother's Mobile Number</label>
+                        <input class="form-control" id="address-pin" type="tel" placeholder="Mother's Mobiler Number">
+                    </div>
+                </div>    
+            </form>
+          </td>
+          <td>
+            <form>
+                <div class="form-group row">
+                    <div class="col-xs-12">
+                        <label for="state">State</label>
+                        <input class="form-control" id="address-pin" type="text" placeholder="State">
+                    </div>
+                </div>    
+            </form>
+          </td>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    <div class="form-group row">
+                        <div class="col-xs-12">
+                            <label for="gender">Gender</label>
+                            <select id="gender" name="gender" >
+                                <option value="text">Male</option>
+                                <option value="text">Female</option>
+                                <option value="text">Others</option>                              
+                            </select>
+                        </div>
+                    </div>  
+                </form>
+            </td> 
+            <td>
+                <form>
+                    <div class="form-group row">
+                        <div class="col-xs-12">
+                            <label for="father-email">Father's Email id</label>
+                            <input class="form-control" id="address-pin" type="email" placeholder="Father's Email id">
+                        </div>
+                    </div>    
+                </form>
+            </td> 
+            <td>
+                <form>
+                    <div class="form-group row">
+                        <div class="col-xs-12">
+                            <label for="mother-email">Mother's Email id</label>
+                            <input class="form-control" id="address-pin" type="email" placeholder="Mother's Email id">
+                        </div>
+                    </div>    
+                </form>
+            </td>  
+            <td>
+                <form>
+                    <div class="form-group row">
+                        <div class="col-xs-12">
+                            <label for="distance-school">Distance From School</label>
+                            <input class="form-control" id="address-pin" type="text" placeholder="Distance From School">
+                        </div>
+                    </div>    
+                </form>
+            </td>
+            <td>              
+                <form action="/action_page.php">
+                    <label for="distance-school">Your Comments</label>
+                    <textarea placeholder="Your Comments" name="message" rows="10" cols="30"></textarea>
+                    <br><br>
+                    <input type="submit" >
+                </form>              
+            </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</html>

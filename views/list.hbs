@@ -1,0 +1,21 @@
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<h1>Contact</h1><br>
+<table class="table" style="border: 1px solid:rebeccapurple;">
+    <tr>
+        <th>NAME</th>
+        <th>EMAIL</th>
+        <th>Phone No.</th>
+    </tr>
+    {{#each data}}
+    <tr >
+        <td>{{this.Name}}</td>
+         <td>{{this.Email}}</td>
+          <td>{{this.PhoneNO}}</td>
+    </tr>
+    {{/each}}
+</table>
